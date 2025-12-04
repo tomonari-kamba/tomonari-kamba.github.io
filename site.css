@@ -234,17 +234,17 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 14px;
-  border-radius: 12px;
+  padding: 8px 12px;
+  border-radius: 10px;
   font-weight: 600;
   border: 1px solid var(--line);
   transition: transform 0.15s, background 0.15s, color 0.15s;
 }
 
 .btn.primary {
-  background: linear-gradient(120deg, var(--accent), var(--accent-strong));
+  background: linear-gradient(120deg, rgba(246, 173, 85, 0.9), rgba(249, 115, 22, 0.85));
   color: #0b0f1c;
-  border-color: transparent;
+  border-color: rgba(249, 173, 85, 0.4);
 }
 
 .btn.ghost {
